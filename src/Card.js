@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = ({ name, email, id }) => {
   return (
-    <div className="bg-whites dib br3 pa4 ma grow bw2 shadow-4 tc">
+    <div className="bg-whites dib br3 pa4 ma3 grow bw2 shadow-1 tc">
       <img alt="eskators" src={`${id}`} />
       <div>
         <h2>{name}</h2>
