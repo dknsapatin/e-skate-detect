@@ -1,0 +1,10 @@
+h1 {
+  color: #ecf0f1;
+}
+.title {
+  letter-spacing: 1rem;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+  color: #fffbfb;
+}

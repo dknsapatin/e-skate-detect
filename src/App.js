@@ -24,7 +24,7 @@ class App extends Component {
     });
     return (
       <div className="tc">
-        <h1>Eskate Mentors</h1>
+        <h1 className="title">Eskate Mentors</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <CardList eskaters={filteredEskaters} />
       </div>
