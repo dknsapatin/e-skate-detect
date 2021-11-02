@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SearchBox from "./SearchBox";
 import CardList from "./CardList";
 import { eskaters } from "./eskaters";
+import Scroll from "./Scroll";
 import "./App.css";
 
 class App extends Component {
@@ -26,7 +27,9 @@ class App extends Component {
       <div className="tc">
         <h1 className="title">Eskate Mentors</h1>
         <SearchBox searchChange={this.onSearchChange} />
-        <CardList eskaters={filteredEskaters} />
+        <Scroll>
+          <CardList eskaters={filteredEskaters} />
+        </Scroll>
       </div>
     );
   }
