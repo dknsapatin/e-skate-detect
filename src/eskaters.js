@@ -29,4 +29,34 @@ export const eskaters = [
     username: "dkwan",
     email: "dkwan@gmail.com",
   },
+  {
+    id: "https://scontent.cdninstagram.com/v/t51.29350-15/246000637_960972674455691_7764391238754068665_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=RX7fSoMVMfwAX_7VMwN&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=030cfaf8b714c84875cff30d223f6061&oe=6185C1B0",
+    name: "Hung Phan",
+    username: "hphan",
+    email: "hphan@gmail.com",
+  },
+  {
+    id: "https://scontent.cdninstagram.com/v/t51.29350-15/245809691_367244245144592_2289695484041233545_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=UhRdZY8KDokAX8918U_&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=51458360ae06d782df79e4db6d3bd503&oe=6185FA51",
+    name: "Richmond Norte",
+    username: "rnorte",
+    email: "rnorte@gmail.com",
+  },
+  {
+    id: "https://scontent.cdninstagram.com/v/t51.29350-15/245377346_106947285026138_7281267491440972845_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=qXl3KghLYZ4AX8EOq8d&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=2aea0200c97173ac7e1ea08de44353bf&oe=6184CC7A",
+    name: "Angela Ariola",
+    username: "aariola",
+    email: "aariola@gmail.com",
+  },
+  {
+    id: "https://scontent.cdninstagram.com/v/t51.29350-15/247021260_911222326162344_8957630235801638679_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=oWOJjRC9KA8AX819GVj&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=9fb7f8dae8d175f9d4053ce9b1f1f797&oe=61859758",
+    name: "Michael Lee",
+    username: "mlee",
+    email: "rnorte@gmail.com",
+  },
+  {
+    id: "https://scontent.cdninstagram.com/v/t51.29350-15/248976109_568542660885655_7164657197346833865_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=E2RCVKa8lAAAX9ArH8H&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=d75312137dd7ca76f2384bc0191a9640&oe=6184E503",
+    name: "RJ Meneses",
+    username: "rjmeneses",
+    email: "rjmeneses@gmail.com",
+  },
 ];
