@@ -18,12 +18,13 @@ class App extends Component {
     this.setState({ searchfield: event.target.value });
   };
   render() {
-    const filteredEskaters = this.state.eskaters.filter((eskaters) => {
-      return eskaters.name
-        .toLowerCase()
-        .includes(this.state.searchfield.toLowerCase());
+    const { robots, searchfield } = this.state;
+    const filteredEskaters = eskaters.filter((eskaters) => {
+      return eskaters.name.toLowerCase().includes(searchfield.toLowerCase());
     });
-    return (
+    return !eskaters.length ? (
+      <h1>Loading</h1>
+    ) : (
       <div className="tc">
         <h1 className="title">Eskate Mentors</h1>
         <SearchBox searchChange={this.onSearchChange} />
