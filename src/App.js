@@ -3,6 +3,7 @@ import SearchBox from "./SearchBox";
 import CardList from "./CardList";
 import { eskaters } from "./eskaters";
 import Scroll from "./Scroll";
+import ErrorBoundary from "./ErrorBoundary";
 import "./App.css";
 
 class App extends Component {
@@ -29,7 +30,9 @@ class App extends Component {
         <h1 className="title">Eskate Mentors</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
-          <CardList eskaters={filteredEskaters} />
+          <ErrorBoundary>
+            <CardList eskaters={filteredEskaters} />
+          </ErrorBoundary>
         </Scroll>
       </div>
     );
